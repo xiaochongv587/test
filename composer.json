@@ -1,0 +1,21 @@
+{
+    "name": "lcc/test",
+    "description": "this is my test",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaochongv587",
+            "email": "1441652193@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lcc\\Test\\":"./src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
